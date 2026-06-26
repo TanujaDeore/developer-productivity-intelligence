@@ -1,0 +1,101 @@
+author,text,predicted_sentiment,confidence,confident_score,collaborative_score,frustrated_score,blocked_score,neutral_score
+pwang347,"Fix context size default + reload behaviour, add defensive fallbacks",neutral,0.694,0.117,0.055,0.053,0.081,0.694
+lszomoru,Agents - extract the ChangesViewModel into a service,neutral,0.559,0.188,0.071,0.067,0.115,0.559
+DonJayamanne,Implement session resource aliasing for untitled and real chat sessions,neutral,0.685,0.102,0.065,0.06,0.088,0.685
+benibenj,Fix context key references,neutral,0.729,0.092,0.055,0.052,0.071,0.729
+alexr00,Skip Copilot CLI 2nd reply in editor,neutral,0.607,0.148,0.06,0.068,0.116,0.607
+alexdima,Prepare for 1.125.1,neutral,0.319,0.29,0.113,0.077,0.2,0.319
+gjsjohnmurray,:lipstick: correct command capitalization in /causedByExtension response,neutral,0.64,0.138,0.06,0.061,0.101,0.64
+jruales,build: keep Linux smoke test data off the small OS root disk,neutral,0.642,0.12,0.08,0.068,0.089,0.642
+DonJayamanne,Optimize session restoration with parallel processing,neutral,0.602,0.15,0.08,0.069,0.1,0.602
+vs-code-engineering[bot],fix: prevent expected Copilot auth error from leaking as unhandled rejection (fixes #321950),neutral,0.668,0.118,0.059,0.06,0.095,0.668
+justschen,AH: honor yolo mode setting,neutral,0.51,0.192,0.08,0.086,0.132,0.51
+dmitrivMS,Follow ups for Agent Host tools support,neutral,0.68,0.113,0.071,0.058,0.078,0.68
+dmitrivMS,Add Tools to Chat Customizations,neutral,0.667,0.106,0.082,0.064,0.082,0.667
+Copilot,Investigation: #321639 (GitHubLoginFailed) is unrelated to #321956,neutral,0.492,0.147,0.092,0.121,0.148,0.492
+dmitrivMS,Show custom dialog for no updates available if possible,neutral,0.629,0.114,0.083,0.064,0.11,0.629
+TylerLeonhardt,agentHost: fix subagent transcript replay + bump Claude/Codex SDKs,neutral,0.685,0.116,0.061,0.058,0.08,0.685
+DonJayamanne,agentHost: speed up subagent session enrichment (parallel load + memoized reconstruction),neutral,0.663,0.127,0.067,0.06,0.083,0.663
+tamuratak,Fix code block rendering logic to prevent unnecessary re-renders. Fix #277574,neutral,0.691,0.107,0.064,0.057,0.081,0.691
+dmitrivMS,Fix hiding Update UI during active chat sessions,neutral,0.714,0.088,0.059,0.059,0.079,0.714
+roblourens,Persist multi-root folder picker choice to new agent-host chats,neutral,0.694,0.115,0.058,0.051,0.082,0.694
+sandy081,sessions: contribute workspace folder pill into session header meta row,neutral,0.696,0.103,0.059,0.059,0.082,0.696
+justschen,AH: fix steered/queued messages sending immediately,neutral,0.624,0.142,0.062,0.059,0.113,0.624
+roblourens,Gate Debug Local Agent Host action on chat.agentHost.enabled,neutral,0.688,0.109,0.067,0.056,0.079,0.688
+sandy081,"sessions: Close, reopen, and delete chats in the agents window session view",neutral,0.638,0.133,0.065,0.066,0.098,0.638
+roblourens,Show new local chat sessions in list without manual refresh,neutral,0.64,0.107,0.078,0.063,0.112,0.64
+roblourens,agentHost: enable TAS rollout of chat.agentHost.enabled to Stable,neutral,0.662,0.128,0.067,0.056,0.087,0.662
+vijayupadya,Support Responses API in Azure BYOK,neutral,0.698,0.102,0.062,0.058,0.079,0.698
+Dmitriusan,Fix gitignore negation in child files not overriding parent/global rules,neutral,0.667,0.113,0.061,0.06,0.1,0.667
+ashleylamont,"Fix commit characters in typescript property key strings, and improve completion tests",neutral,0.676,0.121,0.062,0.053,0.088,0.676
+Nedunchezhiyan-M,Fix: typo 'continous' → 'continuous' in testing module,neutral,0.585,0.171,0.06,0.067,0.118,0.585
+mxi-box,copilot/byok: add reasoning effort support for custom OAI models,neutral,0.656,0.124,0.075,0.062,0.083,0.656
+Nedunchezhiyan-M,Fix: Guard against null model in inline edits word/line replacement view renders,neutral,0.699,0.104,0.059,0.059,0.079,0.699
+Nedunchezhiyan-M,Fix: Git warning messages incorrectly shown with error styling,neutral,0.682,0.103,0.062,0.064,0.089,0.682
+vs-code-engineering[bot],[OSS Tool] Fix OSS license entries: replace licenseDetail with fullLicenseText/fullLicenseTextUri,neutral,0.688,0.102,0.069,0.06,0.08,0.688
+Nedunchezhiyan-M,Fix: typo 'continous' → 'continuous' in testing module,neutral,0.585,0.171,0.06,0.067,0.118,0.585
+Nedunchezhiyan-M,Fix: rename 'continousMatchingGlobPattern' to 'continuousMatchingGlobPattern',neutral,0.616,0.13,0.069,0.067,0.118,0.616
+n-gist,guarantee that return of TreeDataProvider.getChildren() is not mutated by vscode,neutral,0.53,0.162,0.072,0.076,0.158,0.53
+JeffreyCA,Integrated terminal - fix stale OSC 8 link hover tooltip issues,neutral,0.693,0.117,0.059,0.055,0.076,0.693
+XQZZZ13,Fix quoted ID parsing in check-requirements-linux.sh,neutral,0.694,0.109,0.06,0.058,0.079,0.694
+Nedunchezhiyan-M,Fix: typo 'overriden' → 'overridden' in terminal history,neutral,0.477,0.202,0.078,0.087,0.156,0.477
+Nedunchezhiyan-M,Fix: typo 'accomodate' → 'accommodate' in workbench files,neutral,0.672,0.119,0.061,0.057,0.09,0.672
+EhabY,Detect dead connections via keepalive timeout,neutral,0.625,0.126,0.077,0.065,0.107,0.625
+bhavyaus,Always set X-Model-Provider-Preference to anthropic for Messages API,neutral,0.489,0.238,0.063,0.058,0.152,0.489
+pranavvaid-ac,Improve linked symbol anchors with tree-sitter fallback,neutral,0.643,0.145,0.064,0.052,0.096,0.643
+alexdima,Have a better title for the Agents window,confident,0.27,0.27,0.147,0.098,0.265,0.22
+alexdima,update distro,neutral,0.73,0.091,0.057,0.054,0.068,0.73
+justschen,remove `activating cortana` as a possible working message,neutral,0.588,0.134,0.076,0.07,0.132,0.588
+justschen,don't hide tool calls incorrectly,confident,0.338,0.338,0.096,0.091,0.275,0.201
+justschen,use inline editor for plan widget,neutral,0.694,0.103,0.066,0.058,0.079,0.694
+dmitrivMS,Retry browser-test page.goto on connection-refused,neutral,0.646,0.132,0.062,0.065,0.096,0.646
+alexdima,fix: sessions terminal contribution should not manage hidden tool terminals,neutral,0.653,0.127,0.058,0.06,0.102,0.653
+bhavyaus,Use 4 cache_control breakpoints for Anthropic Messages API,neutral,0.671,0.105,0.068,0.061,0.095,0.671
+bhavyaus,Fix empty chat response when first message exceeds budget,neutral,0.686,0.108,0.057,0.057,0.092,0.686
+pwang347,Update UBB stats per chat,neutral,0.695,0.099,0.067,0.059,0.079,0.695
+roblourens,Fix Agent Host tool call history replay,neutral,0.718,0.101,0.058,0.052,0.072,0.718
+justschen,fix showing explicitely skipped terminal tools,neutral,0.714,0.095,0.058,0.057,0.076,0.714
+lszomoru,Agents - expand discard changes to all changesets,neutral,0.546,0.204,0.068,0.064,0.117,0.546
+pwang347,Remove redundant View Usage actions,neutral,0.736,0.09,0.053,0.052,0.069,0.736
+kycutler,Enable preload script in browser sub-frames,neutral,0.69,0.106,0.064,0.057,0.083,0.69
+alexdima,"Fix that ""Mark as Done"" wouldn't work on local sessions until a window reload",neutral,0.343,0.158,0.116,0.151,0.232,0.343
+pranavvaid-ac,Improve linked symbol anchors with tree-sitter fallback,neutral,0.643,0.145,0.064,0.052,0.096,0.643
+connor4312,agentHost: ignore subagent mode changes so the session mode picker doesn't reset to Plan,neutral,0.624,0.12,0.068,0.075,0.114,0.624
+benibenj,sessions: improve session group drag and drop,neutral,0.552,0.193,0.068,0.067,0.12,0.552
+meganrogge,Disconnect voice mode when mic permission is denied,neutral,0.579,0.129,0.083,0.08,0.13,0.579
+joshspicer,Load managed-settings.json from well-known disk path,neutral,0.677,0.119,0.065,0.06,0.08,0.677
+roblourens,agentHost: fix Copilot real-SDK replay test,neutral,0.68,0.122,0.063,0.057,0.077,0.68
+connor4312,agent host: model client connection state as a discriminated union,neutral,0.598,0.159,0.067,0.065,0.111,0.598
+connor4312,chat: make Send Immediately work for agent-host sessions,neutral,0.623,0.145,0.069,0.063,0.1,0.623
+TylerLeonhardt,agentHost: implement Claude session fork (Phase 6.5),neutral,0.668,0.119,0.067,0.061,0.085,0.668
+pwang347,Use max output context for output buffer,neutral,0.694,0.1,0.061,0.059,0.086,0.694
+benvillalobos,Document OSS NOTICE cutover,neutral,0.719,0.095,0.061,0.055,0.07,0.719
+sandy081,clean up,confident,0.371,0.371,0.116,0.106,0.18,0.226
+roblourens,agentHost: filter local AHP actions by subscription,neutral,0.667,0.119,0.07,0.061,0.083,0.667
+lszomoru,AgentHost - disable changeset operations while a session is in progress,neutral,0.622,0.135,0.067,0.067,0.109,0.622
+sandy081,sessions: responsive auto-collapse of the sessions sidebar (D7),neutral,0.619,0.145,0.062,0.066,0.108,0.619
+pwang347,Fix context size handling for Agent Host,neutral,0.709,0.096,0.06,0.056,0.078,0.709
+kycutler,Browser: support device APIs,neutral,0.676,0.118,0.07,0.059,0.077,0.676
+benvillalobos,Cut over ThirdPartyNotices to the Component Governance generated notice,neutral,0.684,0.109,0.06,0.057,0.091,0.684
+roblourens,chat: recover large session clone persistence,neutral,0.701,0.106,0.06,0.057,0.076,0.701
+sandy081,sessions: fork into a new chat for multi-chat agent host sessions,neutral,0.653,0.122,0.067,0.066,0.093,0.653
+lramos15,Support model hover costs for claude and codex harnesses in AH,neutral,0.512,0.217,0.076,0.065,0.13,0.512
+pwang347,Support model hover costs for claude and codex harnesses in AH,neutral,0.512,0.217,0.076,0.065,0.13,0.512
+roblourens,agentHost: Log unhandled Copilot SDK events,neutral,0.663,0.124,0.068,0.06,0.084,0.663
+aeschli,Add ICustomizationItemProvider.provideSourceFolders functionality,neutral,0.674,0.114,0.073,0.06,0.079,0.674
+rfeltis,Add quota checkpoint to notification telemetry,neutral,0.698,0.095,0.068,0.057,0.082,0.698
+connor4312,agentHost: support multiple active clients per session,neutral,0.665,0.12,0.071,0.062,0.083,0.665
+Copilot,Add user think time telemetry to workspace trust dialog and chat tool approvals,neutral,0.664,0.117,0.078,0.058,0.083,0.664
+lramos15,Fix EDU upgrade nudge,neutral,0.702,0.108,0.063,0.055,0.073,0.702
+sandy081,sessions: split per-session layout controller by platform; refine maximize & changes behavior,neutral,0.621,0.161,0.061,0.059,0.098,0.621
+TylerLeonhardt,Claude agent host: surface user/workspace native plugins in customizations (Phase 17B),neutral,0.673,0.123,0.06,0.06,0.084,0.673
+TylerLeonhardt,Claude agent host: surface user/workspace native plugins in customizations (Phase 17B),neutral,0.673,0.123,0.06,0.06,0.084,0.673
+benibenj,onboarding: gate experiment assignment-context id until would-show,neutral,0.603,0.165,0.058,0.063,0.111,0.603
+vijayupadya,Update strictKnownMarketplaces managed setting to support rich types,neutral,0.712,0.097,0.061,0.056,0.074,0.712
+vijayupadya,Add model managed setting and make it default for new conversations,neutral,0.69,0.116,0.062,0.053,0.08,0.69
+DonJayamanne,feat(chat): implement AgentHostSessionListStore for managing agent-host sessions,neutral,0.67,0.118,0.067,0.059,0.086,0.67
+rwoll,Fix misleading Chat model picker and Sign In affordances in untrusted (Restricted Mode) workspaces,neutral,0.631,0.136,0.065,0.06,0.108,0.631
+benibenj,CONTEXT KEYS CLEANUP,neutral,0.715,0.1,0.057,0.054,0.074,0.715
+vs-code-engineering[bot],fix: AsyncIterableSource emit after resolve throws TypeError (fixes #322752),neutral,0.674,0.123,0.055,0.058,0.091,0.674
+joshspicer,agents: remove redundant text mcp policy e7ff5829,neutral,0.701,0.102,0.061,0.056,0.081,0.701
+vs-code-engineering[bot],fix: avoid stack overflow when aggregating diagnostics (fixes #322753),neutral,0.693,0.105,0.058,0.058,0.086,0.693

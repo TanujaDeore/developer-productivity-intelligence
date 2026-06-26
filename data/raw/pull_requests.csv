@@ -1,0 +1,101 @@
+pr_number,title,author,state,merged,created_at,merged_at,closed_at,time_to_merge_hours,first_review_hours,comments,review_comments,commits_in_pr,additions,deletions,changed_files,label_count
+322882,"Fix context size default + reload behaviour, add defensive fallbacks",pwang347,closed,True,2026-06-25 06:30:23+00:00,2026-06-25 08:34:41+00:00,2026-06-25 08:34:41+00:00,2.07,0.08,0,2,7,495,33,6,0
+322886,Agents - extract the ChangesViewModel into a service,lszomoru,closed,True,2026-06-25 07:38:15+00:00,2026-06-25 08:32:38+00:00,2026-06-25 08:32:38+00:00,0.91,0.07,0,2,1,62,9,4,0
+322875,Implement session resource aliasing for untitled and real chat sessions,DonJayamanne,closed,True,2026-06-25 05:21:59+00:00,2026-06-25 08:32:19+00:00,2026-06-25 08:32:19+00:00,3.17,0.09,0,2,3,537,82,6,0
+322831,Fix context key references,benibenj,closed,True,2026-06-24 21:40:54+00:00,2026-06-25 08:18:02+00:00,2026-06-25 08:18:02+00:00,10.62,,1,0,1,3,3,3,0
+322721,Skip Copilot CLI 2nd reply in editor,alexr00,closed,False,2026-06-24 13:26:39+00:00,,2026-06-24 15:10:11+00:00,,0.05,0,1,1,1,1,1,0
+322057,Prepare for 1.125.1,alexdima,closed,True,2026-06-19 08:09:05+00:00,2026-06-19 08:39:35+00:00,2026-06-19 08:39:35+00:00,0.51,,0,0,1,5,5,4,0
+298925,:lipstick: correct command capitalization in /causedByExtension response,gjsjohnmurray,closed,True,2026-03-03 10:36:43+00:00,2026-06-24 16:47:02+00:00,2026-06-24 16:47:02+00:00,2718.17,,2,0,5,1,1,1,0
+322880,build: keep Linux smoke test data off the small OS root disk,jruales,closed,True,2026-06-25 06:16:22+00:00,2026-06-25 07:50:18+00:00,2026-06-25 07:50:18+00:00,1.57,,1,0,2,14,2,1,0
+322878,Optimize session restoration with parallel processing,DonJayamanne,closed,True,2026-06-25 05:55:56+00:00,2026-06-25 06:31:48+00:00,2026-06-25 06:31:48+00:00,0.6,0.11,0,2,2,15,11,1,0
+321956,fix: prevent expected Copilot auth error from leaking as unhandled rejection (fixes #321950),vs-code-engineering[bot],closed,True,2026-06-18 16:22:43+00:00,2026-06-25 06:08:22+00:00,2026-06-25 06:08:22+00:00,157.76,,0,0,2,6,1,1,2
+322870,AH: honor yolo mode setting,justschen,closed,True,2026-06-25 04:17:13+00:00,2026-06-25 05:16:48+00:00,2026-06-25 05:16:49+00:00,0.99,0.07,0,4,6,122,15,6,0
+322871,Follow ups for Agent Host tools support,dmitrivMS,closed,True,2026-06-25 04:24:50+00:00,2026-06-25 04:53:44+00:00,2026-06-25 04:53:44+00:00,0.48,,0,0,9,5,7,2,1
+322620,Add Tools to Chat Customizations,dmitrivMS,closed,True,2026-06-23 21:48:09+00:00,2026-06-24 16:45:16+00:00,2026-06-24 16:45:16+00:00,18.95,0.12,2,17,7,1616,106,31,0
+322869,Investigation: #321639 (GitHubLoginFailed) is unrelated to #321956,Copilot,closed,False,2026-06-25 04:06:56+00:00,,2026-06-25 04:21:17+00:00,,,0,0,1,0,0,0,0
+322866,Show custom dialog for no updates available if possible,dmitrivMS,closed,True,2026-06-25 03:47:36+00:00,2026-06-25 04:15:52+00:00,2026-06-25 04:15:52+00:00,0.47,0.13,1,6,1,27,34,3,1
+322865,agentHost: fix subagent transcript replay + bump Claude/Codex SDKs,TylerLeonhardt,closed,True,2026-06-25 03:42:43+00:00,2026-06-25 04:08:35+00:00,2026-06-25 04:08:35+00:00,0.43,,0,0,3,235,137,12,0
+322674,agentHost: speed up subagent session enrichment (parallel load + memoized reconstruction),DonJayamanne,closed,True,2026-06-24 06:46:16+00:00,2026-06-25 02:22:28+00:00,2026-06-25 02:22:28+00:00,19.6,0.12,0,1,6,350,62,7,0
+279250,Fix code block rendering logic to prevent unnecessary re-renders. Fix #277574,tamuratak,closed,False,2025-11-24 23:32:13+00:00,,2026-06-25 01:22:33+00:00,,0.17,0,6,2,2,2,1,0
+322857,Fix hiding Update UI during active chat sessions,dmitrivMS,closed,True,2026-06-25 00:46:07+00:00,2026-06-25 01:00:06+00:00,2026-06-25 01:00:07+00:00,0.23,,0,0,1,12,26,1,1
+322855,Persist multi-root folder picker choice to new agent-host chats,roblourens,closed,True,2026-06-25 00:08:56+00:00,2026-06-25 00:55:42+00:00,2026-06-25 00:55:42+00:00,0.78,0.08,0,4,2,86,5,8,0
+322848,sessions: contribute workspace folder pill into session header meta row,sandy081,closed,True,2026-06-24 23:18:02+00:00,2026-06-25 00:37:18+00:00,2026-06-25 00:37:18+00:00,1.32,0.07,2,4,3,353,146,13,0
+322802,AH: fix steered/queued messages sending immediately,justschen,closed,True,2026-06-24 19:01:41+00:00,2026-06-25 00:05:18+00:00,2026-06-25 00:05:18+00:00,5.06,0.11,0,1,3,176,25,5,0
+322853,Gate Debug Local Agent Host action on chat.agentHost.enabled,roblourens,closed,True,2026-06-24 23:43:13+00:00,2026-06-24 23:59:13+00:00,2026-06-24 23:59:13+00:00,0.27,,0,0,1,6,2,1,0
+322844,"sessions: Close, reopen, and delete chats in the agents window session view",sandy081,closed,True,2026-06-24 22:44:53+00:00,2026-06-24 23:53:20+00:00,2026-06-24 23:53:20+00:00,1.14,0.1,2,10,12,395,37,18,0
+320306,Show new local chat sessions in list without manual refresh,roblourens,closed,False,2026-06-07 18:51:43+00:00,,2026-06-24 23:53:57+00:00,,0.11,0,2,2,90,26,2,0
+322852,agentHost: enable TAS rollout of chat.agentHost.enabled to Stable,roblourens,closed,True,2026-06-24 23:34:18+00:00,2026-06-24 23:52:06+00:00,2026-06-24 23:52:06+00:00,0.3,,1,0,1,10,5,2,0
+322845,Support Responses API in Azure BYOK,vijayupadya,closed,True,2026-06-24 23:02:42+00:00,2026-06-24 23:49:36+00:00,2026-06-24 23:49:36+00:00,0.78,0.07,0,4,2,59,2,2,0
+300613,Fix gitignore negation in child files not overriding parent/global rules,Dmitriusan,closed,True,2026-03-11 01:08:54+00:00,2026-05-09 13:13:36+00:00,2026-05-09 13:13:36+00:00,1428.08,1424.58,3,1,3,45,2,2,1
+250451,"Fix commit characters in typescript property key strings, and improve completion tests",ashleylamont,closed,False,2025-06-03 11:14:49+00:00,,2026-05-10 10:19:53+00:00,,,0,0,4,113,12,3,0
+310228,Fix: typo 'continous' → 'continuous' in testing module,Nedunchezhiyan-M,closed,True,2026-04-15 21:31:17+00:00,2026-04-15 23:03:44+00:00,2026-04-15 23:03:44+00:00,1.54,,0,0,1,5,5,2,0
+312151,copilot/byok: add reasoning effort support for custom OAI models,mxi-box,closed,False,2026-04-23 15:26:34+00:00,,2026-05-09 09:21:03+00:00,,,1,0,1,31,17,4,0
+309949,Fix: Guard against null model in inline edits word/line replacement view renders,Nedunchezhiyan-M,closed,False,2026-04-14 19:10:39+00:00,,2026-04-16 00:13:20+00:00,,,1,0,1,4,2,2,0
+309944,Fix: Git warning messages incorrectly shown with error styling,Nedunchezhiyan-M,closed,False,2026-04-14 19:03:29+00:00,,2026-04-16 09:37:32+00:00,,,2,0,2,8,1,1,0
+311657,[OSS Tool] Fix OSS license entries: replace licenseDetail with fullLicenseText/fullLicenseTextUri,vs-code-engineering[bot],closed,False,2026-04-21 11:02:22+00:00,,2026-05-09 09:18:00+00:00,,,1,0,1,30,46,1,1
+310228,Fix: typo 'continous' → 'continuous' in testing module,Nedunchezhiyan-M,closed,True,2026-04-15 21:31:17+00:00,2026-04-15 23:03:44+00:00,2026-04-15 23:03:44+00:00,1.54,,0,0,1,5,5,2,0
+310231,Fix: rename 'continousMatchingGlobPattern' to 'continuousMatchingGlobPattern',Nedunchezhiyan-M,closed,False,2026-04-15 21:32:56+00:00,,2026-04-16 00:13:22+00:00,,,1,0,2,9,9,6,0
+306955,guarantee that return of TreeDataProvider.getChildren() is not mutated by vscode,n-gist,closed,True,2026-03-31 22:05:46+00:00,2026-05-07 10:42:47+00:00,2026-05-07 10:42:47+00:00,876.62,11.81,1,8,2,26,24,8,0
+309539,Integrated terminal - fix stale OSC 8 link hover tooltip issues,JeffreyCA,closed,True,2026-04-13 17:00:34+00:00,2026-05-06 21:32:49+00:00,2026-05-06 21:32:49+00:00,556.54,0.15,1,4,5,138,6,2,0
+312466,Fix quoted ID parsing in check-requirements-linux.sh,XQZZZ13,closed,False,2026-04-25 00:44:39+00:00,,2026-05-09 04:54:13+00:00,,,0,0,2,5,2,1,0
+310230,Fix: typo 'overriden' → 'overridden' in terminal history,Nedunchezhiyan-M,closed,False,2026-04-15 21:31:53+00:00,,2026-04-16 00:13:22+00:00,,,1,0,2,7,7,5,0
+310229,Fix: typo 'accomodate' → 'accommodate' in workbench files,Nedunchezhiyan-M,closed,False,2026-04-15 21:31:31+00:00,,2026-04-16 00:13:21+00:00,,,1,0,1,3,3,3,1
+310131,Detect dead connections via keepalive timeout,EhabY,closed,True,2026-04-15 13:17:56+00:00,2026-05-07 14:29:29+00:00,2026-05-07 14:29:29+00:00,529.19,47.51,4,8,2,98,3,3,0
+315068,Always set X-Model-Provider-Preference to anthropic for Messages API,bhavyaus,closed,False,2026-05-07 18:26:15+00:00,,2026-05-10 01:05:03+00:00,,0.11,0,2,1,1,4,1,0
+314864,Improve linked symbol anchors with tree-sitter fallback,pranavvaid-ac,closed,True,2026-05-06 22:16:21+00:00,2026-05-10 02:21:48+00:00,2026-05-10 02:21:48+00:00,76.09,0.12,4,8,8,728,60,6,1
+315549,Have a better title for the Agents window,alexdima,closed,True,2026-05-10 17:09:27+00:00,2026-05-10 17:37:06+00:00,2026-05-10 17:37:06+00:00,0.46,0.06,0,2,1,7,5,1,0
+315555,update distro,alexdima,closed,True,2026-05-10 17:56:47+00:00,2026-05-10 18:23:18+00:00,2026-05-10 18:23:19+00:00,0.44,,0,0,1,1,1,1,0
+315557,remove `activating cortana` as a possible working message,justschen,closed,True,2026-05-10 18:19:19+00:00,2026-05-10 18:37:04+00:00,2026-05-10 18:37:04+00:00,0.3,,3,0,1,0,3,1,0
+315554,don't hide tool calls incorrectly,justschen,closed,True,2026-05-10 17:56:03+00:00,2026-05-10 18:21:08+00:00,2026-05-10 18:21:08+00:00,0.42,,0,0,2,4,2,1,0
+314332,use inline editor for plan widget,justschen,closed,True,2026-05-05 06:47:20+00:00,2026-05-10 07:44:12+00:00,2026-05-10 07:44:12+00:00,120.95,0.13,1,9,9,392,97,5,0
+315504,Retry browser-test page.goto on connection-refused,dmitrivMS,closed,True,2026-05-10 01:06:11+00:00,2026-05-10 03:36:11+00:00,2026-05-10 03:36:11+00:00,2.5,,1,0,1,26,4,1,0
+315556,fix: sessions terminal contribution should not manage hidden tool terminals,alexdima,closed,True,2026-05-10 18:12:35+00:00,2026-05-10 18:29:56+00:00,2026-05-10 18:29:56+00:00,0.29,,0,0,2,108,0,2,0
+315505,Use 4 cache_control breakpoints for Anthropic Messages API,bhavyaus,closed,True,2026-05-10 01:06:48+00:00,2026-05-10 03:47:08+00:00,2026-05-10 03:47:08+00:00,2.67,0.06,1,1,2,30,19,2,0
+315503,Fix empty chat response when first message exceeds budget,bhavyaus,closed,True,2026-05-10 00:40:35+00:00,2026-05-10 01:08:33+00:00,2026-05-10 01:08:33+00:00,0.47,,1,0,1,15,5,3,0
+315145,Update UBB stats per chat,pwang347,closed,False,2026-05-08 01:26:07+00:00,,2026-05-10 19:23:59+00:00,,0.09,1,8,7,314,12,13,0
+315491,Fix Agent Host tool call history replay,roblourens,closed,True,2026-05-09 20:04:52+00:00,2026-05-10 19:53:08+00:00,2026-05-10 19:53:08+00:00,23.8,0.08,0,2,3,244,47,4,0
+315542,fix showing explicitely skipped terminal tools,justschen,closed,True,2026-05-10 15:11:02+00:00,2026-05-10 18:06:56+00:00,2026-05-10 18:06:56+00:00,2.93,0.06,0,1,3,24,12,2,0
+315523,Agents - expand discard changes to all changesets,lszomoru,closed,True,2026-05-10 08:41:42+00:00,2026-05-10 11:41:39+00:00,2026-05-10 11:41:39+00:00,3.0,,0,0,2,131,33,10,0
+315551,Remove redundant View Usage actions,pwang347,closed,True,2026-05-10 17:18:31+00:00,2026-05-10 17:41:19+00:00,2026-05-10 17:41:19+00:00,0.38,,0,0,1,0,4,1,0
+315269,Enable preload script in browser sub-frames,kycutler,closed,True,2026-05-08 14:21:24+00:00,2026-05-10 15:06:40+00:00,2026-05-10 15:06:40+00:00,48.75,0.09,1,1,1,5,0,1,0
+315553,"Fix that ""Mark as Done"" wouldn't work on local sessions until a window reload",alexdima,closed,True,2026-05-10 17:41:03+00:00,2026-05-10 17:58:42+00:00,2026-05-10 17:58:42+00:00,0.29,0.06,0,2,1,9,1,1,0
+314864,Improve linked symbol anchors with tree-sitter fallback,pranavvaid-ac,closed,True,2026-05-06 22:16:21+00:00,2026-05-10 02:21:48+00:00,2026-05-10 02:21:48+00:00,76.09,0.12,4,8,8,728,60,6,1
+322841,agentHost: ignore subagent mode changes so the session mode picker doesn't reset to Plan,connor4312,closed,True,2026-06-24 22:30:59+00:00,2026-06-24 23:20:26+00:00,2026-06-24 23:20:26+00:00,0.82,,0,0,1,19,0,2,0
+322846,sessions: improve session group drag and drop,benibenj,closed,True,2026-06-24 23:04:31+00:00,2026-06-24 23:19:15+00:00,2026-06-24 23:19:15+00:00,0.25,0.09,0,2,1,256,81,4,0
+322768,Disconnect voice mode when mic permission is denied,meganrogge,closed,True,2026-06-24 16:52:54+00:00,2026-06-24 23:20:08+00:00,2026-06-24 23:20:08+00:00,6.45,0.05,0,1,2,8,0,1,0
+321870,Load managed-settings.json from well-known disk path,joshspicer,closed,True,2026-06-18 02:30:49+00:00,2026-06-24 23:09:39+00:00,2026-06-24 23:09:39+00:00,164.65,0.1,2,12,1,929,272,18,0
+322837,agentHost: fix Copilot real-SDK replay test,roblourens,closed,True,2026-06-24 22:07:10+00:00,2026-06-24 22:43:26+00:00,2026-06-24 22:43:26+00:00,0.6,,0,0,1,19,13,1,0
+322832,agent host: model client connection state as a discriminated union,connor4312,closed,True,2026-06-24 21:47:24+00:00,2026-06-24 22:12:50+00:00,2026-06-24 22:12:50+00:00,0.42,,0,0,1,115,62,1,0
+322836,chat: make Send Immediately work for agent-host sessions,connor4312,closed,False,2026-06-24 22:04:12+00:00,,2026-06-24 22:13:29+00:00,,0.06,0,1,1,100,7,5,0
+322828,agentHost: implement Claude session fork (Phase 6.5),TylerLeonhardt,closed,True,2026-06-24 21:31:56+00:00,2026-06-24 22:09:44+00:00,2026-06-24 22:09:44+00:00,0.63,0.09,1,6,2,719,53,9,0
+322648,Use max output context for output buffer,pwang347,closed,True,2026-06-24 00:20:29+00:00,2026-06-24 21:59:16+00:00,2026-06-24 21:59:16+00:00,21.65,20.89,3,2,20,8,5,1,0
+322827,Document OSS NOTICE cutover,benvillalobos,closed,True,2026-06-24 21:26:43+00:00,2026-06-24 21:56:44+00:00,2026-06-24 21:56:44+00:00,0.5,0.2,1,2,1,64,23,6,0
+322825,clean up,sandy081,closed,True,2026-06-24 21:21:10+00:00,2026-06-24 21:35:13+00:00,2026-06-24 21:35:13+00:00,0.23,,1,0,1,2,2,1,0
+322804,agentHost: filter local AHP actions by subscription,roblourens,closed,True,2026-06-24 19:03:11+00:00,2026-06-24 21:18:53+00:00,2026-06-24 21:18:53+00:00,2.26,0.09,0,1,2,84,16,4,0
+322823,AgentHost - disable changeset operations while a session is in progress,lszomoru,closed,True,2026-06-24 20:57:35+00:00,2026-06-24 21:11:19+00:00,2026-06-24 21:11:19+00:00,0.23,0.07,0,2,1,204,13,4,0
+322819,sessions: responsive auto-collapse of the sessions sidebar (D7),sandy081,closed,True,2026-06-24 20:27:01+00:00,2026-06-24 21:09:53+00:00,2026-06-24 21:09:53+00:00,0.71,0.09,1,2,2,446,47,13,0
+322470,Fix context size handling for Agent Host,pwang347,closed,True,2026-06-22 22:43:56+00:00,2026-06-24 21:00:54+00:00,2026-06-24 21:00:54+00:00,46.28,0.06,0,12,21,258,69,22,0
+322800,Browser: support device APIs,kycutler,closed,True,2026-06-24 18:49:15+00:00,2026-06-24 20:45:37+00:00,2026-06-24 20:45:37+00:00,1.94,0.16,1,4,3,564,27,8,0
+322780,Cut over ThirdPartyNotices to the Component Governance generated notice,benvillalobos,closed,True,2026-06-24 17:35:56+00:00,2026-06-24 20:34:38+00:00,2026-06-24 20:34:38+00:00,2.98,0.09,1,7,11,493,26,9,0
+322806,chat: recover large session clone persistence,roblourens,closed,True,2026-06-24 19:07:24+00:00,2026-06-24 20:18:25+00:00,2026-06-24 20:18:25+00:00,1.18,0.06,0,1,4,67,3,3,0
+322799,sessions: fork into a new chat for multi-chat agent host sessions,sandy081,closed,True,2026-06-24 18:44:32+00:00,2026-06-24 20:12:45+00:00,2026-06-24 20:12:45+00:00,1.47,0.12,1,1,3,713,31,25,0
+322807,Support model hover costs for claude and codex harnesses in AH,lramos15,closed,True,2026-06-24 19:07:44+00:00,2026-06-24 19:49:48+00:00,2026-06-24 19:49:48+00:00,0.7,,0,0,1,113,63,7,0
+322801,Support model hover costs for claude and codex harnesses in AH,pwang347,closed,False,2026-06-24 19:00:31+00:00,,2026-06-24 19:49:57+00:00,,,1,0,1,247,5,4,0
+322793,agentHost: Log unhandled Copilot SDK events,roblourens,closed,True,2026-06-24 18:26:22+00:00,2026-06-24 19:47:53+00:00,2026-06-24 19:47:53+00:00,1.36,,0,0,1,87,6,4,0
+322740,Add ICustomizationItemProvider.provideSourceFolders functionality,aeschli,closed,True,2026-06-24 15:03:17+00:00,2026-06-24 19:36:49+00:00,2026-06-24 19:36:49+00:00,4.56,0.14,0,6,14,430,173,23,0
+322767,Add quota checkpoint to notification telemetry,rfeltis,closed,True,2026-06-24 16:44:01+00:00,2026-06-24 19:18:01+00:00,2026-06-24 19:18:01+00:00,2.57,0.06,0,2,3,23,5,2,0
+322665,agentHost: support multiple active clients per session,connor4312,closed,True,2026-06-24 03:33:23+00:00,2026-06-24 19:08:02+00:00,2026-06-24 19:08:02+00:00,15.58,0.09,1,1,3,1395,587,53,0
+320790,Add user think time telemetry to workspace trust dialog and chat tool approvals,Copilot,closed,False,2026-06-10 15:13:07+00:00,,2026-06-24 19:05:33+00:00,,6.47,1,5,6,147,36,3,0
+322778,Fix EDU upgrade nudge,lramos15,closed,True,2026-06-24 17:25:56+00:00,2026-06-24 18:59:28+00:00,2026-06-24 18:59:28+00:00,1.56,0.05,0,2,2,26,3,2,0
+322789,sessions: split per-session layout controller by platform; refine maximize & changes behavior,sandy081,closed,True,2026-06-24 18:19:33+00:00,2026-06-24 18:42:35+00:00,2026-06-24 18:42:35+00:00,0.38,,1,0,1,1690,983,20,0
+322766,Claude agent host: surface user/workspace native plugins in customizations (Phase 17B),TylerLeonhardt,closed,True,2026-06-24 16:43:58+00:00,2026-06-24 18:29:24+00:00,2026-06-24 18:29:24+00:00,1.76,0.11,0,2,3,1111,39,12,0
+322766,Claude agent host: surface user/workspace native plugins in customizations (Phase 17B),TylerLeonhardt,closed,True,2026-06-24 16:43:58+00:00,2026-06-24 18:29:24+00:00,2026-06-24 18:29:24+00:00,1.76,0.11,0,2,3,1111,39,12,0
+322777,onboarding: gate experiment assignment-context id until would-show,benibenj,closed,True,2026-06-24 17:23:38+00:00,2026-06-24 18:29:33+00:00,2026-06-24 18:29:33+00:00,1.1,0.07,0,6,2,571,84,6,0
+322025,Update strictKnownMarketplaces managed setting to support rich types,vijayupadya,closed,True,2026-06-19 00:04:13+00:00,2026-06-19 14:52:30+00:00,2026-06-19 14:52:30+00:00,14.8,0.07,2,6,7,501,113,16,0
+322669,Add model managed setting and make it default for new conversations,vijayupadya,closed,True,2026-06-24 04:57:13+00:00,2026-06-24 18:16:41+00:00,2026-06-24 18:16:41+00:00,13.32,0.12,2,8,5,368,25,11,0
+322333,feat(chat): implement AgentHostSessionListStore for managing agent-host sessions,DonJayamanne,closed,True,2026-06-22 07:57:17+00:00,2026-06-24 18:20:40+00:00,2026-06-24 18:20:40+00:00,58.39,0.07,0,3,6,699,408,4,0
+322627,Fix misleading Chat model picker and Sign In affordances in untrusted (Restricted Mode) workspaces,rwoll,closed,False,2026-06-23 22:10:29+00:00,,2026-06-24 18:17:40+00:00,,0.09,0,4,10,732,47,13,0
+322783,CONTEXT KEYS CLEANUP,benibenj,closed,True,2026-06-24 17:53:38+00:00,2026-06-24 18:11:19+00:00,2026-06-24 18:11:19+00:00,0.29,0.09,1,2,1,236,218,27,0
+322759,fix: AsyncIterableSource emit after resolve throws TypeError (fixes #322752),vs-code-engineering[bot],closed,True,2026-06-24 16:09:52+00:00,2026-06-24 17:20:40+00:00,2026-06-24 17:20:40+00:00,1.18,,0,0,1,10,6,2,2
+322568,agents: remove redundant text mcp policy e7ff5829,joshspicer,closed,True,2026-06-23 16:09:01+00:00,2026-06-24 17:16:22+00:00,2026-06-24 17:16:22+00:00,25.12,,0,0,1,2,2,2,0
+322758,fix: avoid stack overflow when aggregating diagnostics (fixes #322753),vs-code-engineering[bot],closed,True,2026-06-24 16:06:11+00:00,2026-06-24 17:09:58+00:00,2026-06-24 17:09:58+00:00,1.06,,0,0,1,1,1,1,2
