@@ -1,0 +1,10 @@
+.env
+venv/
+__pycache__/
+*.pyc
+models/
+mlruns/
+mlflow.db
+logs/
+Thumbs.db
+.DS_Store
