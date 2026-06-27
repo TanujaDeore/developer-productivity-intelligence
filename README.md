@@ -1,4 +1,5 @@
 # 🔬 Developer Productivity Intelligence Platform
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B)](https://tanuja-dev-analytics.streamlit.app)
 
 > End-to-end behavioral analytics and anomaly detection system for engineering teams — built with Python, SQL, Machine Learning, NLP, and REST API.
 
